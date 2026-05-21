@@ -1,16 +1,98 @@
-# React + Vite
+# Momentum
+A modern and responsive To-Do application built using React and Tailwind CSS with dark mode support, glassmorphism UI, animations, and local storage functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
 
-Currently, two official plugins are available:
+- ✅ Add Tasks
+- ✅ Edit Tasks
+- ✅ Delete Tasks
+- ✅ Mark Tasks as Completed
+- ✅ Search Tasks
+- ✅ Filter Tasks
+- ✅ Dark/Light Mode
+- ✅ Local Storage Support
+- ✅ Responsive Design
+- ✅ Smooth Animations using Framer Motion
+- ✅ Modern Glassmorphism UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+![Momentum Preview](./public/screenshoots.png)
+---
+
+## 🚀 Live Demo
+
+(Add your deployed website link here)
+
+---
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/todo-app.git
+```
+
+Move into the project folder:
+
+```bash
+cd todo-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── TodoForm.jsx
+│   ├── TodoItem.jsx
+│   ├── FilterButtons.jsx
+│
+├── App.jsx
+├── main.jsx
+├── index.css
+```
+
+---
+
+## 🎯 Future Improvements
+
+- Due dates
+- Drag and drop tasks
+- Task categories
+- Authentication
+- Backend integration
+
+---
+
+## 👩‍💻 Author
+
+Made by Anupriya Ranjan
